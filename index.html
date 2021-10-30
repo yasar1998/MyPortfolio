@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio Website - Yashar Mustafayev</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark p-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon-sm"></span>
+                </button>
+                <div class="collapse navbar-collapse"  style="width:50%;" id="collapsibleNavbar">
+                    <ul class="navbar-nav justify-content-between" style="width:30%;">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#career" class="nav-link">Career</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    </ul>
+                </div>
+                <a href="https://www.linkedin.com/in/yashar-mustafayev-5592b9146/" target="_blank" class="btn btn-outline-info">My Resume</a>
+        </nav>
+
+
+        <section id="home">
+            <div class="container-lg p-5 d-flex justify-content-center">
+                <div class="card-lg bg-light" style="width:300px;">
+                    <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4D03AQEgMjb4rmsJ1w/profile-displayphoto-shrink_800_800/0/1600917572033?e=1640822400&v=beta&t=F4Tbil-fCsK3U8uA8fFxr_Mln_43N-vCvxnwOfnFTew">
+                    <div class="card-body text-center">
+                        <h3 class="border">Yashar Mustafayev</h3>
+                        <strong><i>Software Developer</i></strong>
+                        <p>Student in the University of Debrecen</p>
+                        <div class="btn-group">
+                            <a href="https://www.instagram.com/yasar_mstfv/" class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span><small>Instagram</small></a>
+                            <a href="https://www.facebook.com/yasharmustafayev1998" class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span><small>Facebook</small></a>
+                            <a href="https://twitter.com/Yashar_1998" class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span><small>Twitter</small></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr></hr>
+
+        <section id="about">
+            <div class="container-lg text-center">
+                <h1>About Me</h1>
+                <div class="row">
+                    <div class="col-lg-4 rounded d-flex align-items-center">
+                        <p class="bg-info rounded p-3">I'm Yashar from Azerbaijan, and studying computer science in the University of Debrecen. I enjoy project-based-learning in the field of both web and desktop application development and have hands-on experience on the following programming languages and technologies, <code>Java</code>, <code>C</code>, <code>C++</code>, <code>Python</code>, <code>JavaScript</code>, <code>BootStrap5</code>, <code>CSS3</code>, <code>HTML5</code>, <code>MySQL</code>, <code>MongoDB</code>, <code>Redis</code>. I am currently trying hard to be a full-stack Java or JavaScript developer.</p>
+                    </div>
+                    <div class="col-lg-4 p-3">
+                        <img class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/7/73/DebrecenDSCN3583.JPG" style="width:300px;">
+                    </div>
+                    <div class="col-lg-4 rounded d-flex align-items-center">
+                      <p class="bg-info rounded p-3">I have an <code>agile</code>-based experience in software development and have used <code>Atlassian Jira</code> for project/team management. I have software testing experience using <code>Selenium</code>. I can create <code>responsive</code> and <code>dynamic</code> web design. I have a basic knowledge of <code>MERN</code> technologies. I have an experience in building standalone database applications with <code>Python</code> and <code>MongoDB</code> or <code>Java</code>, and <code>MySQL</code>. I am currently learning or improving my <code>MERN</code> and <code>Jakarta EE</code> skills</p>
+                  </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr></hr>
+
+        <section id="education">
+            <div class="container-lg text-center">
+                <h1>Education</h1>
+                <p class="text-info" style="font-family:cursive">Click on each button to see more...</p>
+                <ul class="nav nav-pills justify-content-around" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link border rounded text-light" data-bs-toggle="pill" href="#menu0">Kalbajar High School #17</a>
+                    </li>
+                    <li class="nav-item border rounded">
+                      <a class="nav-link text-light" data-bs-toggle="pill" href="#menu1">Baku Higher Oil School</a>
+                    </li>
+                    <li class="nav-item border rounded">
+                      <a class="nav-link active text-light" data-bs-toggle="pill" href="#menu2">University of Debrecen</a>
+                    </li>
+                  </ul>
+                
+                  <div class="tab-content">
+                    <div id="menu0" class="container tab-pane fade"><br>
+                      <h4>Kalbajar High School #17 (2004-2015)</h4>
+                      <p>That is my high school studies. I was taking general studies from very different subjects. During my studies, I had a good academic performance, showed a great interest on technical subjects and later on completed my high school degree with <span>excellence</span>.</p>
+
+                      <table class="table table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Native Language (Azerbaijani)</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Literature</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Foreign Language (English)</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Mathematics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Informatics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Azerbaijan history</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>General history</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Physics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Chemistry</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Biology</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Geography</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Physical training</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Pre-military training</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Astronomy</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Human and society</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Principles of economy</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                      <h4>Baku Higher Oil School (2015-2018)</h4>
+                      <p>In 2015, I got <span>687</span> points out of <span>700</span> in the university admission exam and It was the <span>30th</span> highest result in the country for the same major group on that year. I got accepted to Baku Higher Oil School with the major of Process Automation Engineering. During my three years of study, I showed a great performance and my last GPA was <span>90.34</span> out of 100 before leaving.</p>
+                      <table class="table table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Maximum Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Computer and Information-Communication Technologies</td>
+                            <td>94</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>English 1.</td>
+                            <td>89</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Offshore Life Safety Training</td>
+                            <td>100</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Engineering Applications of Computers</td>
+                            <td>92</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>English 2.</td>
+                            <td>88</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Azerbaijan Language and Art of Speech</td>
+                            <td>97</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>History of Azerbaijan</td>
+                            <td>87</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Calculus 1.</td>
+                            <td>99</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Programming and Computer Applications 1.</td>
+                            <td>91</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Physics 1.</td>
+                            <td>77</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Electrical Health and Safety</td>
+                            <td>99</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Electrical Safety and Health</td>
+                            <td>99</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Calculus 2.</td>
+                            <td>99</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Programming and Computer Applications 2.</td>
+                            <td>96</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Introduction to Process Automation</td>
+                            <td>93</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Numerical Methods in Engineering</td>
+                            <td>99</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Physics 2.</td>
+                            <td>80</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Calculus 3.</td>
+                            <td>100</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Electrical Engineering 1.</td>
+                            <td>86</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Electrical Measurements</td>
+                            <td>80</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Algorithms and Data Structures</td>
+                            <td>97</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Electrical Materials and Devices</td>
+                            <td>92</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td>Petroleum-gas and petroleum-chemistry technologies</td>
+                            <td>69</td>
+                            <td>100</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div id="menu2" class="container tab-pane active"><br>
+                      <h4>University of Debrecen (2018-2022)</h4>
+                      <p>In 2018, I was accepted to University of Debrecen with <span>Stipendium Hungaricum Scholarship</span> after passing the interviews held by The Ministry of Education of Azerbaijan and the Hungarian university. Later on, I had to terminate my student status in my country and decided to continue my studies abroad with the major of Computer Science. I am currently a student in the University of Debrecen. During my studies, I had a good academic performance and my current GPA is <span>4.42</span> out 5.</p>
+                      <table class="table table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Operating Systems</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Introduction to Programming</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Computer Aided Mathematics and Visualization</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Discrete Mathematics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Logic in Computer Science</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>3D Printing and Modelling</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>High Level Programming Languages 1 lab</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>High Level Programming Languages 1</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Network architectures and protocols</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Database Systems lab</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Calculus</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Data Structures and Algorithms</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>High Level Programming Languages 3</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Operation of Infocommunication Systems</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Bioinformatics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Web Technologies</td>
+                            <td>4 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>High Level Programming Languages 2</td>
+                            <td>2 (pass)</td>
+                          </tr>
+                          <tr>
+                            <td>Introduction to Computer Science</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Business Etiquette</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Software Engineering and Technologies</td>
+                            <td>3 (satisfactory)</td>
+                          </tr>
+                          <tr>
+                            <td>Foundations of Computer Security</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Foundations of Artificial Intelligence</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Applied Mathematics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Applied Statistics</td>
+                            <td>3 (satisfactory)</td>
+                          </tr>
+                          <tr>
+                            <td>Database Systems</td>
+                            <td>3 (satisfactory)</td>
+                          </tr>
+                          <tr>
+                            <td>Computer Statistics</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>NoSQL Databases</td>
+                            <td>2 (pass)</td>
+                          </tr>
+                          <tr>
+                            <td>Image Processing in Practice</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>E-sport</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Basics of GIS</td>
+                            <td>4 (good)</td>
+                          </tr>
+                          <tr>
+                            <td>Cloud Computing</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Web Application Development</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Software Development Methodologies</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Advanced Data Security</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                          <tr>
+                            <td>Software Testing</td>
+                            <td>5 (excellent)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
+
+        <hr></hr>
+
+        <section id="career">
+          <div class="container-lg text-center">
+            <h1>Career</h1>
+            <p class="text-info" style="font-family:cursive">Click on logos to see more...</p>
+            <div class="row">
+                <div class="col-lg-4 p-3">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#c1"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGKMxLxZFZQiw/company-logo_200_200/0/1519901922721?e=2159024400&v=beta&t=d-J3Syt_Z0dyqzDrIMdHvVZocmWGz5TyUQdnzKfBpwY" style="height:150px;"></button>
+                  <div id="c1" class="collapse">
+                    <h4 class="border p-4">Azerbaijan Robotics Engineering Academy</h4>
+                    <p class="text-start"><strong>Position: </strong>Assistant Teacher</p>
+                    <p class="text-start"><strong>Job Type: </strong>Part-time</p>
+                    <p class="text-start"><strong>Job Duration: </strong>3 months</p>
+                    <p class="text-start"><strong>Job Description: </strong>Tutoring high school students</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#c2"><img src="https://i1.wp.com/limelightr.org/wp-content/uploads/2021/02/cropped-clean-logo.png?fit=275%2C192&ssl=1" style="height:150px;"></button>
+                  <div id="c2" class="collapse">
+                    <h4 class="border p-4">Limelight Renhold</h4>
+                    <p class="text-start"><strong>Position: </strong>Web Developer</p>
+                    <p class="text-start"><strong>Job Type: </strong>Internship</p>
+                    <p class="text-start"><strong>Job Duration: </strong>3 months</p>
+                    <p class="text-start"><strong>Job Description: </strong>Working on web frontend projects using HTML, CSS, JS, BootStrap</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#c3"><img src="https://assets.quizlet.com/a/j/dist/i/brandmark/1024.ce363eb63469f80.png" style="width:150px;"></button>
+                  <div id="c3" class="collapse">
+                    <h4 class="border p-4">Quizlet</h4>
+                    <p class="text-start"><strong>Position: </strong>Expert Content Contributor</p>
+                    <p class="text-start"><strong>Job Type: </strong>Part-time</p>
+                    <p class="text-start"><strong>Job Duration: </strong>4 months</p>
+                    <p class="text-start"><strong>Job Description: </strong>Contribution in mathematical solutions for students</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        </section>
+
+        <hr></hr>
+        <section id="projects" class="p-5 bg-dark">
+          <div class="row">
+            
+            <div class="col-lg-6">
+              <div class="container-lg text-center">
+                <p class="text-info" style="font-family:cursive">Check my github profile or projects section of linkedin profile to see my projects</p>
+                <div class="container-fluid d-flex justify-content-around p-4">
+                    <a href="https://github.com/yasar1998" class="btn btn-primary"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"></a>
+                    <a href="https://www.linkedin.com/in/yashar-mustafayev-5592b9146/" class="btn btn-primary"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"></a> 
+                </div>
+              </div>
+            </div>
+          
+          <div class="col-lg-6">
+            <div class="container-lg text-center">
+              <p class="text-info" style="font-family:cursive">Don't hesitate to send a message...</p>
+              <div class="container-fluid d-flex justify-content-around p-3">
+                  <a href="mailto:yasarmustafayev1998@gmail.com" class="btn btn-primary"><img src="https://img.icons8.com/ios-filled/50/000000/gmail-new.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <footer class="bg-info text-center p-3 text-muted">
+            <h5>Copyright <span>&copy;</span> 2021</h5>
+        </footer>
+
+        
+    </body>
+</html>
